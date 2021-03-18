@@ -111,7 +111,8 @@ const InputWrapper = styled.div`
     border-top: 1px solid var(--panel-border);
     border-radius: 0px 0px 4px 4px;
     input {
-        width: 100px;
+        width: 100%;
+        text-overflow: ellipsis;
         color: var(--input-text);
         font-size: 16px;
         font-weight: 500;
